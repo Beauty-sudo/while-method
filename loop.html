@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>while javascript method</h1>
+    <p id="while"></p>
+    
+    
+
+<script>
+let text = "";
+let i = 0;
+while (i < 1000) {
+  i++;
+  if (i % 2 == 0){
+            text = text + i + " is even number</br>"
+        }
+  else{
+            text = text + i + " is odd number</br>"
+        }
+}
+document.getElementById("while").innerHTML = text;
+</script>
+
+</body>
+</html>
